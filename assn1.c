@@ -15,13 +15,12 @@ the copy will receive a zero on this assignment.
 #include<stdio.h>
 
 int main(int argc, char *argv[]) {
-	printf("This program prints the parameters of the program");
+	printf("Assignment #1 by Reid Kuttler");
 	printf("\n");
 	for (int i = 0; i < argc; i++) {
-		printf("%s ",argv[i]);
+		printf("Argument #%i %s \n",i, argv[i]);
 	}
-	printf("\n");
-	printf("You have %d parameters", argc);
+	printf("Printed %d parameters", argc);
 
 	return 0;
 }
