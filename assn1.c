@@ -22,5 +22,6 @@ int main(int argc, char *argv[]) {
 	}
 	printf("\n");
 	printf("You have %d parameters", argc);
+
 	return 0;
 }
